@@ -1,0 +1,8 @@
+.footer{
+    background-color:#ace0f0 ;
+    padding: 3em 0;
+}
+
+.footer > p{
+    text-align: left;
+}

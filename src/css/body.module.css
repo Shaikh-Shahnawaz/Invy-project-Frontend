@@ -1,0 +1,107 @@
+
+
+
+
+
+/* ============== banner ============== */
+.banner{
+    text-align: left;
+    margin-right: 4em;
+}
+
+.banner h1{
+    font-size: 70px;
+    color: red;
+    line-height: 60px;
+}
+.banner p{
+    margin: 25px 0;
+   color: gray;
+   font-size: 22px;
+}
+
+
+
+
+/* =========Two cards========= */
+
+.firstImage h1{
+position: relative;
+top: 130px;
+left:-60px;
+color: #615874;
+}
+.firstImage p{
+position: relative;
+top: 150px;
+left:60px;
+color:grey;
+text-align: left;
+line-height: 10px;
+
+}
+
+.secondImage{
+    margin-left: 3em;
+}
+.secondImage h1{
+    position: relative;
+    top: 130px;
+    left:-140px;
+    color: #615874;
+}
+.secondImage p{
+    position: relative;
+    top: 140px;
+    left:55px;
+    color:grey;
+    text-align: left;
+    line-height: 10px;
+}
+
+
+
+/* =========Multiple cards========= */
+
+
+
+.multipleCard{
+    
+    position: relative;
+    left:400px
+
+}
+
+
+.iconDiv{
+    position: absolute;
+    left:120px;
+    top:120px; 
+}
+
+/* ========= Review cards========= */
+
+/* .reviewCard{
+
+} */
+
+.reviewCardFooter{
+    text-align: left;
+}
+
+.reviewCardBody{
+    /* line-height: 1.5;
+  display: inline-block; */
+  vertical-align: middle;
+}
+
+/* .slick-prev:before,
+.slick-next:before {
+  color: red!important;
+} */
+/* .slick-list {
+    margin: 0 -7px;
+}
+.slick-slide>div {
+    padding: 0 7px;
+} */

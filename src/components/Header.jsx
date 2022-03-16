@@ -1,8 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
 import styles from '../css/header.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import Register from '../pages/Register';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
+
+
+
+  const [modalShow, setModalShow] = useState(false);
+
   return (
     <>
 
@@ -21,9 +27,12 @@ const Header = () => {
 
     |
     <div className={` d-flex ${styles.register}`}>
-    <FontAwesomeIcon  icon={faCoffee} /><p>Register</p>
+    {/* <FontAwesomeIcon  icon={faCoffee} /> */}
+    <p onClick={()=>setModalShow(true)} style={{cursor:'pointer'}}>Register</p>
+    <p style={{cursor:'pointer'}} className='ms-3'>Login</p>
     </div>
 
+<Register show={modalShow} onHide={()=>setModalShow(false)} />
 
     </div>
     
