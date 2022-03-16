@@ -1,0 +1,33 @@
+.header{
+    background-color: #ace0f0;
+    color: red;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 10px;
+}
+
+.toothsi{
+    background-color: aliceblue;
+    border-radius: 25px;
+    padding: 0px 8px;
+    margin-left: 6em;
+    margin-right: 3em;
+}
+
+.toothsi p{
+   margin-top: 8px;
+}
+
+.skinnsi p{
+ margin-top: 15px;
+ letter-spacing: 2px;
+ margin-left: 25px;
+
+}
+
+.register p{
+    margin-top: 15px;
+    
+}
